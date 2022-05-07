@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libghostdb_lib.a CMakeFiles/ghostdb_lib.dir/core/collection.cpp.o CMakeFiles/ghostdb_lib.dir/core/object.cpp.o CMakeFiles/ghostdb_lib.dir/core/object_property_int.cpp.o CMakeFiles/ghostdb_lib.dir/core/property.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libghostdb_lib.a
