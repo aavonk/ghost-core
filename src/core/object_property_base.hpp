@@ -14,11 +14,10 @@ namespace ghost::core {
 // Abstract class.
 class ObjectPropertyBase {
 public:
-    virtual ~ObjectPropertyBase()= default;
-    virtual PropertyType get_type() { return type;};
-    virtual std::string get_name() { return name;};
-    virtual size_t get_size()  { return size;};
-
+    virtual ~ObjectPropertyBase() = default;
+    virtual PropertyType get_type() { return type; };
+    virtual std::string get_name() { return name; };
+    virtual size_t get_size() { return size; };
 
     virtual void* get_value_ref() = 0;
 

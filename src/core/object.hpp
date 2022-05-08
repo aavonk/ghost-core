@@ -23,6 +23,8 @@ public:
      * @return true if successful, false if property with same name exists.
      */
     bool register_property(ObjectPropertyBase* prop);
+    bool set(std::string property, int value);
+
     [[nodiscard]] std::map<std::string, ObjectPropertyBase*> get_properties() const { return m_properties; };
 private:
     std::map<std::string, ObjectPropertyBase*> m_properties;

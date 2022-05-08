@@ -6,40 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/aaron/dev/ghostdb/src/core/collection.cpp
-collection.hpp
-/Users/aaron/dev/ghostdb/src/core/collection.hpp
-object_property_int.hpp
-/Users/aaron/dev/ghostdb/src/core/object_property_int.hpp
-memory
--
-
-/Users/aaron/dev/ghostdb/src/core/collection.hpp
-property.hpp
-/Users/aaron/dev/ghostdb/src/core/property.hpp
-object.hpp
-/Users/aaron/dev/ghostdb/src/core/object.hpp
-string
--
-memory
--
-map
--
-utility
--
-
-/Users/aaron/dev/ghostdb/src/core/object.cpp
-object.hpp
-/Users/aaron/dev/ghostdb/src/core/object.hpp
-
-/Users/aaron/dev/ghostdb/src/core/object.hpp
-string
--
-map
--
-object_property_base.hpp
-/Users/aaron/dev/ghostdb/src/core/object_property_base.hpp
-
 /Users/aaron/dev/ghostdb/src/core/object_property_base.hpp
 cstring
 -
@@ -57,10 +23,6 @@ object_property_base.hpp
 /Users/aaron/dev/ghostdb/src/core/object_property_base.hpp
 string
 -
-
-/Users/aaron/dev/ghostdb/src/core/property.cpp
-property.hpp
-/Users/aaron/dev/ghostdb/src/core/property.hpp
 
 /Users/aaron/dev/ghostdb/src/core/property.hpp
 string

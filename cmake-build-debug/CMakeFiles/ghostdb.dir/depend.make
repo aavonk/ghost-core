@@ -6,4 +6,5 @@ CMakeFiles/ghostdb.dir/main.cpp.o: \
  ../src/core/collection.hpp \
  ../src/core/object.hpp \
  ../src/core/object_property_base.hpp \
+ ../src/core/object_property_int.hpp \
  ../src/core/property.hpp

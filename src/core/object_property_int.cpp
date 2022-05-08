@@ -14,6 +14,9 @@ ObjectPropertyInt::ObjectPropertyInt(std::string n)
     size = sizeof(int);
     type = type_Int;
     name = std::move(n);
+    // an Int property will have a zero value as default.
+    value = new int;
+    *value = 0;
 }
 ObjectPropertyInt::~ObjectPropertyInt()
 {
@@ -35,7 +38,7 @@ ObjectPropertyInt::ObjectPropertyInt(const ObjectPropertyInt& obj)
 void* ObjectPropertyInt::get_value_ref()
 {
     // return the address of the value pointer. TODO: This might need to drop the address of operator
-    return &value;
+    return value;
 }
 
 }

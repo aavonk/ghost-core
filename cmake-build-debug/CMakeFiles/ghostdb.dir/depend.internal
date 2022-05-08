@@ -6,4 +6,5 @@ CMakeFiles/ghostdb.dir/main.cpp.o
  /Users/aaron/dev/ghostdb/src/core/collection.hpp
  /Users/aaron/dev/ghostdb/src/core/object.hpp
  /Users/aaron/dev/ghostdb/src/core/object_property_base.hpp
+ /Users/aaron/dev/ghostdb/src/core/object_property_int.hpp
  /Users/aaron/dev/ghostdb/src/core/property.hpp

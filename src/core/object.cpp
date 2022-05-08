@@ -8,7 +8,7 @@ namespace ghost::core {
 
 bool Object::register_property(ObjectPropertyBase* prop)
 {
-    if(m_properties.contains(prop->get_name())) {
+    if (m_properties.contains(prop->get_name())) {
         return false;
     }
 
@@ -16,6 +16,19 @@ bool Object::register_property(ObjectPropertyBase* prop)
     return true;
 
 }
+bool Object::set(std::string property, int value)
+{
+    assert(!m_properties.empty());
 
+    if (!m_properties.contains(property)) return false;
+
+    ObjectPropertyBase* p = m_properties.at(property);
+    if (p->get_type()!=type_Int) return false;
+
+    void* val = p->get_value_ref();
+    *(int*)val = value;
+
+    return true;
+}
 
 }// namespace
